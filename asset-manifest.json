@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Entertainment-web-app/static/css/main.609be34e.css",
+    "main.js": "/Entertainment-web-app/static/js/main.28841bac.js",
+    "static/media/large.jpg": "/Entertainment-web-app/static/media/large.7dbbfd3564efbdd81ccf.jpg",
+    "index.html": "/Entertainment-web-app/index.html",
+    "static/media/icon-category-movie.svg": "/Entertainment-web-app/static/media/icon-category-movie.6861d0ce9036ac864b87dc5aff6570c3.svg",
+    "static/media/icon-nav-bookmark.svg": "/Entertainment-web-app/static/media/icon-nav-bookmark.a564501ebcbde752ebe044260a9206b8.svg",
+    "static/media/icon-nav-movies.svg": "/Entertainment-web-app/static/media/icon-nav-movies.c347442f9a6fd2201f1abf8819aa4ef6.svg",
+    "static/media/icon-bookmark-full.svg": "/Entertainment-web-app/static/media/icon-bookmark-full.361afed00144e45cd54d64697d9a877d.svg",
+    "static/media/icon-nav-home.svg": "/Entertainment-web-app/static/media/icon-nav-home.8acf660248afc7a27879c9c9bf218722.svg",
+    "static/media/icon-search.svg": "/Entertainment-web-app/static/media/icon-search.cbc8d670ebd27b023c98.svg",
+    "static/media/logo.svg": "/Entertainment-web-app/static/media/logo.7d4aedc9f44f15655a966567c57a1f37.svg",
+    "static/media/icon-category-tv.svg": "/Entertainment-web-app/static/media/icon-category-tv.75c9208553d35303e2f1b61b511ab387.svg",
+    "static/media/icon-nav-tv-series.svg": "/Entertainment-web-app/static/media/icon-nav-tv-series.c22fe1629b446365f6f7829a014453f8.svg",
+    "static/media/icon-play.svg": "/Entertainment-web-app/static/media/icon-play.8371f8d28787ad27a68ec37af3a6c7b0.svg",
+    "static/media/icon-bookmark-empty.svg": "/Entertainment-web-app/static/media/icon-bookmark-empty.e83033fb17556a127d4a5c1a16204d59.svg",
+    "main.609be34e.css.map": "/Entertainment-web-app/static/css/main.609be34e.css.map",
+    "main.28841bac.js.map": "/Entertainment-web-app/static/js/main.28841bac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.609be34e.css",
+    "static/js/main.28841bac.js"
+  ]
+}
