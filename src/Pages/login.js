@@ -2,6 +2,7 @@ import React from "react";
 import "./login.css";
 import logo from "../Icons/logo.svg";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Login() {
   const [email, setEmail] = useState(null);
@@ -77,11 +78,15 @@ function Login() {
             onBlur={blurCheck}
             onChange={passwordCheck}
           />
-          <a className="acc" href={email && password ? "/Home" : null}>
+          <Link
+            className="acc"
+            to={email && password ? "/Entertainment-web-app/Home" : null}
+          >
             Login to your account
-          </a>
+          </Link>
           <p>
-            Don’t have an account?<a href="/SignUp"> Sign Up</a>
+            Don’t have an account?
+            <Link to="/Entertainment-web-app/SignUp"> Sign Up</Link>
           </p>
         </form>
       </div>

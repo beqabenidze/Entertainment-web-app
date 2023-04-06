@@ -11,12 +11,15 @@ function App() {
   return (
     <div className="Backbone">
       <Routes>
-        <Route path="/Entertainment-web-app" element={<Login />} />
-        <Route path="/SignUp" element={<SignUp />} />
-        <Route path="/Home" element={<Home />} />
-        <Route path="/Movies" element={<Movies />} />
-        <Route path="/Series" element={<Series />} />
-        <Route path="/Bookmarked" element={<Bookmarked />} />
+        <Route path="/Entertainment-web-app/" element={<Login />} />
+        <Route path="/Entertainment-web-app/SignUp" element={<SignUp />} />
+        <Route path="/Entertainment-web-app/Home" element={<Home />} />
+        <Route path="/Entertainment-web-app/Movies" element={<Movies />} />
+        <Route path="/Entertainment-web-app/Series" element={<Series />} />
+        <Route
+          path="/Entertainment-web-app/Bookmarked"
+          element={<Bookmarked />}
+        />
       </Routes>
     </div>
   );

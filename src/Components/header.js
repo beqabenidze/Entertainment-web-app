@@ -6,30 +6,31 @@ import navbarTvSeries from "../Icons/icon-nav-tv-series.svg";
 import navbarMovies from "../Icons/icon-nav-movies.svg";
 import navbarBookmark from "../Icons/icon-nav-bookmark.svg";
 import avatar from "../Icons/image-avatar.png";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <header>
-      <a href="/Home">
+      <Link to="/Entertainment-web-app/Home">
         <img src={logo} />
-      </a>
+      </Link>
       <div className="headerImg">
-        <a href="/Home">
-          <img src={navbarHome}></img>
-        </a>
-        <a href="/Series">
-          <img src={navbarTvSeries}></img>
-        </a>
-        <a href="/Movies">
-          <img src={navbarMovies}></img>
-        </a>
-        <a href="/Bookmarked">
-          <img src={navbarBookmark}></img>
-        </a>
+        <Link to="/Entertainment-web-app/Home">
+          <img src={navbarHome} />
+        </Link>
+        <Link to="/Entertainment-web-app/Series">
+          <img src={navbarTvSeries} />
+        </Link>
+        <Link to="/Entertainment-web-app/Movies">
+          <img src={navbarMovies} />
+        </Link>
+        <Link to="/Entertainment-web-app/Bookmarked">
+          <img src={navbarBookmark} />
+        </Link>
       </div>
-      <a href="/">
+      <Link to="/Entertainment-web-app/">
         <img className="avatar" src={avatar} />
-      </a>
+      </Link>
     </header>
   );
 }

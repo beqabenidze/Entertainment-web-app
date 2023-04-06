@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../Icons/logo.svg";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Signup() {
   const [email, setEmail] = useState(false);
@@ -106,14 +107,17 @@ function Signup() {
             onBlur={blurCheck}
             onChange={repeatCheck}
           />
-          <a
+          <Link
             className="acc"
-            href={email && password && repeat ? "/Home" : null}
+            to={
+              email && password && repeat ? "/Entertainment-web-app/Home" : null
+            }
           >
             Create an account
-          </a>
+          </Link>
           <p>
-            Already have an account?<a href="/"> Login</a>
+            Already have an account?
+            <Link to="/Entertainment-web-app/"> Login</Link>
           </p>
         </form>
       </div>
