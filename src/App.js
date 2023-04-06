@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="Backbone">
       <Routes>
-        <Route path="/" element={<Login />} />
+        <Route path="/Entertainment-web-app" element={<Login />} />
         <Route path="/SignUp" element={<SignUp />} />
         <Route path="/Home" element={<Home />} />
         <Route path="/Movies" element={<Movies />} />
