@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Entertainment-web-app/static/css/main.609be34e.css",
-    "main.js": "/Entertainment-web-app/static/js/main.49197ea2.js",
+    "main.js": "/Entertainment-web-app/static/js/main.90c0aae0.js",
     "static/media/large.jpg": "/Entertainment-web-app/static/media/large.7dbbfd3564efbdd81ccf.jpg",
     "index.html": "/Entertainment-web-app/index.html",
     "static/media/icon-category-movie.svg": "/Entertainment-web-app/static/media/icon-category-movie.6861d0ce9036ac864b87dc5aff6570c3.svg",
@@ -16,10 +16,10 @@
     "static/media/icon-play.svg": "/Entertainment-web-app/static/media/icon-play.8371f8d28787ad27a68ec37af3a6c7b0.svg",
     "static/media/icon-bookmark-empty.svg": "/Entertainment-web-app/static/media/icon-bookmark-empty.e83033fb17556a127d4a5c1a16204d59.svg",
     "main.609be34e.css.map": "/Entertainment-web-app/static/css/main.609be34e.css.map",
-    "main.49197ea2.js.map": "/Entertainment-web-app/static/js/main.49197ea2.js.map"
+    "main.90c0aae0.js.map": "/Entertainment-web-app/static/js/main.90c0aae0.js.map"
   },
   "entrypoints": [
     "static/css/main.609be34e.css",
-    "static/js/main.49197ea2.js"
+    "static/js/main.90c0aae0.js"
   ]
 }
