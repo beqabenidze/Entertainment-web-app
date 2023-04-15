@@ -68,9 +68,9 @@ function Home() {
           </h2>
           <div className="recomendedDiv">
             {data.map((movie) => {
-              const name = movie.title.toLowerCase();
-              const Search = search.toLowerCase();
-              if (name.includes(Search)) {
+              const nme = movie.title.toLowerCase();
+              const Sarch = search.toLowerCase();
+              if (nme.includes(Sarch)) {
                 return (
                   <Recomended
                     movie={movie}
