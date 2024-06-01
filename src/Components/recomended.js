@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import bookmarkEmpty from "../Icons/icon-bookmark-empty.svg";
 import bookmarkFull from "../Icons/icon-bookmark-full.svg";
-import data from "../data.json";
 import play from "../Icons/icon-play.svg";
 import categoryMovie from "../Icons/icon-category-movie.svg";
 import categoryTV from "../Icons/icon-category-tv.svg";
+import Data from "../data.json";
 
 function Recomended(props) {
   const [bookmarked, setBookmarked] = useState(false);

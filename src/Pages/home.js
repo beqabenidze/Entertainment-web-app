@@ -5,6 +5,7 @@ import Recomended from "../Components/recomended";
 import Trending from "../Components/trending.js";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import "swiper/css/scrollbar";
 
 function Home() {
   const dataTrending = data.filter((item) => item.isTrending);
